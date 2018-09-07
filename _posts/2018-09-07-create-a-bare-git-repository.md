@@ -22,5 +22,9 @@ cd repo.git
 git config --bool core.bare true
 ```
 
+Sometimes you also need to change the url of the remote repository:
+```sh
+git remote set-url origin git://new.url.here
+```
 
 {% include JB/setup %}
