@@ -27,4 +27,8 @@ Sometimes you also need to change the url of the remote repository:
 git remote set-url origin git://new.url.here
 ```
 
+Change the config to display UTF-8 character correclty:
+```sh
+git config --global core.quotepath false
+```
 {% include JB/setup %}
