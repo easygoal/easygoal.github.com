@@ -3,6 +3,7 @@ layout: post
 category: YPM 
 tagline: "媒体本身"
 keywords: sitcom
+tags: ["大英良心汉弗莱"]
 header:
 lang: zh_CN 
 title: Yes, Prime Minister (Episode 002)
