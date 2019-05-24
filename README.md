@@ -6,6 +6,18 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 ## Usage
 
+```bash
+# Use mirror for rubygems
+gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove https://rubygems.org/
+# Install necessary packages
+sudo apt-get install ruby-dev
+gem install bundler
+gem install jekyll
+
+# Build html pages from markdown 
+bundle exec jekyll build
+```
+
 For all usage and documentation please see: <http://jekyllbootstrap.com>
 
 **Jekyll-Bootstrap Documentation Website.**
